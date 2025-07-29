@@ -1,0 +1,75 @@
+.favorites {
+  padding: 2rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.favorites h2 {
+  margin-bottom: 2rem;
+  text-align: center;
+  font-size: 2.5rem;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.favorites-empty {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 12px;
+  margin: 2rem auto;
+  max-width: 600px;
+}
+
+.favorites-empty h2 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #cd1c18;
+}
+
+.favorites-empty p {
+  color: #999;
+  font-size: 1.2rem;
+  line-height: 1.6;
+}
+
+
+/* Animation for new favorites being added */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.movies-grid > * {
+  animation: fadeIn 0.3s ease-out forwards;
+}
+
+@media (prefers-color-scheme: light) {
+  /* Page heading */
+  .favorites h2 {
+    color: #3f3f3f !important; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1) !important; 
+  }
+
+  /* Empty state container */
+  .favorites-empty {
+    background-color: #cccccc !important; 
+    border: 1px solid #bbbbbb !important;  
+  }
+
+  .favorites-empty h2 {
+    color: #ed1b24 !important; 
+  }
+
+  .favorites-empty p {
+    color: #333333 !important; 
+  }
+
+}
+
