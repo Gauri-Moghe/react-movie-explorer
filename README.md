@@ -1,12 +1,73 @@
-# React + Vite
+# Movie Explorer 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A React based responsive web application to explore movies using the TMDB API. Search for titles, view detailed movie information, and save your favorites movies!
 
-Currently, two official plugins are available:
+## Project Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+React Movie Explorer is a movie browsing app that displays popular movies, allows users to search for specific titles, and provides a detailed view for each movie.
 
-## Expanding the ESLint configuration
+Users can favorite movies, and the list of favorites persists across sessions using the browser’s localStorage.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+No backend or database is required. The entire app runs on the frontend using React and the TMDB API.
+
+## Features
+
+* Browse trending and popular movies on the home page
+* Search for movies by title using live API queries
+* View detailed movie pages with poster, release date, rating, runtime, and overview
+* Add or remove movies from favorites with persistent storage via localStorage
+* Light/Dark mode friendly responsive UI
+
+## Folder Structure
+```
+React-Movie-Explorer/
+├── public/                
+├── src/                   
+│   ├── components/        
+│   ├── pages/             
+│   ├── contexts/          
+│   ├── css/               
+│   ├── App.jsx            
+│   ├── api.js             
+│   └── main.jsx          
+├── package.json
+├── vite.config.js
+└── .env                  
+```
+
+## Demo
+
+*(Optional: Add Netlify/Vercel/GitHub Pages link here if you deploy)*
+
+
+## Technologies Used
+
+- **React (Vite)**
+- **React Router**
+- **TMDB API**
+- **CSS Modules**
+- **LocalStorage API**
+
+## Setup & Installation
+
+Clone the repository:
+```bash
+git clone https://github.com/Gauri-Moghe/react-movie-explorer.git
+cd react-movie-explorer
+npm install
+```
+
+Start the development server:
+```bash
+npm run dev
+```
+
+## License
+
+This project uses the TMDB API but is not endorsed or certified by TMDB.
+
+## Author
+
+**Gauri Shashank Moghe**  
+🔗 [LinkedIn](https://www.linkedin.com/in/gauri-moghe) 
+
