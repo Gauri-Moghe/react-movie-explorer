@@ -37,7 +37,9 @@ React-Movie-Explorer/
 
 ## Demo
 
-*(Optional: Add Netlify/Vercel/GitHub Pages link here if you deploy)*
+Try it here:
+
+[https://gauri-moghe.github.io/react-movie-explorer/](https://gauri-moghe.github.io/react-movie-explorer/)
 
 
 ## Technologies Used
