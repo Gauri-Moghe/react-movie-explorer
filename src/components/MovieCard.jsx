@@ -9,7 +9,7 @@ function MovieCard({movie}){
     const favorite = isFavorite(movie.id) //tells if the current movie has been favorited or not
     const posterUrl = movie.poster_path
         ? `https://image.tmdb.org/t/p/w500${movie.poster_path}`
-        : "/react-movie-explorer/noImage.jpg"; // Place placeholder.jpg inside public/ folder
+        : `${import.meta.env.BASE_URL}noImage.jpg`; // Place placeholder.jpg inside public/ folder
 
     //when clicked ->check if favorite, then unfavorite it or vice versa
     function onFavoriteClick(e){
