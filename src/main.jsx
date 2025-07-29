@@ -6,8 +6,8 @@ import App from './App.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter>  {/* acts as a context :gives app the ability to use the routes, navigate across diff pages */}
+    {/* <BrowserRouter>  acts as a context :gives app the ability to use the routes, navigate across diff pages */}
       <App />
-    </BrowserRouter>
+    {/* </BrowserRouter> */}
   </StrictMode>,
 )
