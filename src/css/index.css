@@ -87,7 +87,7 @@ button:focus-visible {
   :root {
 
     color:  #1a1a1a; 
-    background-color: #f6f6f6; 
+    background-color: #eeeeee; 
   }
   /* body{
     background-color: #ffffff;
@@ -121,6 +121,8 @@ button:focus-visible {
     color: #ffffff;
   }
 
-
+  .movie-card{
+    border: 1px solid #efefef !important;  
+  }
 }
   
